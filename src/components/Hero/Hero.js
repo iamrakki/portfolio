@@ -5,7 +5,7 @@ import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 function openResumeNewTab(){
-  const url = 'https://drive.google.com/file/d/1dku3vXBQ9R5ciMwWDU1cFo7xvryEih4x/view?usp=sharing';
+  const url = 'https://drive.google.com/file/d/1RTBIi7Otn499991jwOzAsYKPH-NddrbD/view?usp=sharing';
   window.open(url, '_blank');
 }
 const Hero = (props) => (
@@ -20,7 +20,7 @@ const Hero = (props) => (
         Building Full Stack Decentralized Applications <br />
         </SectionText>
         <SectionText>
-        💼 Currently Working At Zkcross Network
+        💼 Currently Working At Haoda Tech
         </SectionText>
         <Button onClick={openResumeNewTab}>Download Resume</Button>
       </LeftSection>

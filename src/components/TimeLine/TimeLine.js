@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about" >
       <SectionTitle main center>😄 About Me</SectionTitle>
       <SectionText>
-      👩🏻‍💻 Blockchain Developer at Zkcross Network 🎮 <br />
+      👩🏻‍💻 Blockchain Developer at Haoda Tech 🎮 <br />
       🏗️ Building a fully-on-chain Cross-Chain Bridge
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>

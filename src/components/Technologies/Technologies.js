@@ -1,5 +1,6 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend, FaEthereum } from 'react-icons/di';
+import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { FaEthereum } from 'react-icons/fa';
 import { SiSolidity } from "react-icons/si";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
@@ -10,9 +11,21 @@ const Technologies = () =>  (
     <SectionTitle main center>🔮 Awesome Technology</SectionTitle>
     <SectionText>
       I've worked with a range of technologies in the web3 world. <br />
-      From Backend To Design.
+      From Design To Blockchain.
     </SectionText>
     <List>
+      <ListItem>
+        <picture>
+          <DiZend size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>UI/UX</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            tools like Figma
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
       <ListItem>
         <picture>
           <DiReact size="3rem" />
@@ -33,19 +46,19 @@ const Technologies = () =>  (
           <ListTitle>Backend</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Solidity, Rust, Typescript, Javascript, Python, C++, C, Java
+            Golang, Rust, Python, C++, C, Java, kubernetes, Docker
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <FaEthereum size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Blockchain</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            Solidity, Ethereum, Hyperleder Fabric, Web3.js, Ether.js, Hardhat, Smart Contracts
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -53,6 +66,5 @@ const Technologies = () =>  (
     <SectionDivider colorAlt />
   </Section>
 );
-
 
 export default Technologies;
